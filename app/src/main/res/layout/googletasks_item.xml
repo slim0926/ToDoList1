@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:background="@drawable/bg_gradient"
+                android:background="@android:color/transparent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tasklistTitle"
+        android:layout_centerInParent="true"
+        tools:text="My New List"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"/>
+
+</RelativeLayout>
